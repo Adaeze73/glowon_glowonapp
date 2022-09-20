@@ -20,9 +20,11 @@
 @import "font-awesome";
 //Typography styles
 
-h1,h2,h3{
+h1,h2,h3{ 
     font-family: 'Open Sans', sans-serif;
+    font-weight:700;
 }
+
 
 //Background gradient
 .navbar, .home-callout{
@@ -35,7 +37,10 @@ h1,h2,h3{
 .navbar{
     border:none;
 }
-
+.navbar-brand{
+    font-family: 'opens-sans',sans-serif;
+    font-weight: 800;
+}
  .navbar-default .navbar-brand, .navbar-default .navbar-nav > li >a {
   color:white;
 &:hover {
