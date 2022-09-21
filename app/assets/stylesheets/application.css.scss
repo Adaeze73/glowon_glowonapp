@@ -16,7 +16,6 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
-
 @import "font-awesome";
 //Typography styles
 
@@ -49,6 +48,15 @@ h1,h2,h3{
 }
   
   }  
+.navbar-default .navbar-toggle .icon-bar{
+        background-color: white;
+}
+.navbar-default .navbar-toggle{
+    border:2px solid white;
+    &:hover, &:focus {
+    background-color:#2F0743
+    }
+}
 
 //Home Page Styles
 
