@@ -53,6 +53,9 @@ gem 'bootstrap-sass','3.3.7'
 
 #UseFonts Awesome sass gem for adding icons
 gem 'font-awesome-sass', "6.2.0"
+
+#use Hirb for better database  display in console
+gem 'hirb', '0.7.3'
 # see https://github.com/twbs/bootstrap-sass
 gem 'jquery-rails', '4.5.0'
 group :development, :test do
@@ -63,6 +66,7 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
+  
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
